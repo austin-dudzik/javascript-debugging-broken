@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    $("form").submit(calculate());
+    $("form").submit(calculate);
 
-    function calculate() {
+    function calculate(event) {
         event.preventDefault();
 
         var quiz1 = $("#quiz1").val();
