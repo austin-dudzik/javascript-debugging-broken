@@ -16,7 +16,7 @@ $(document).ready(function () {
         var gradeToPass = (73 * 4) - (quiz1 + quiz2 + quiz3);
 
         $("#average").text(average.toFixed(1) + "%");
-        $("minMax").text(`${min}/${max}`);
+        $("#minMax").text(`${min}/${max}`);
         $("#quiz4Grade").text(gradeToPass.toFixed(1));
     }
 });
