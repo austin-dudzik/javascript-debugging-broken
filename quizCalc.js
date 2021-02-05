@@ -17,6 +17,6 @@ $(document).ready(function () {
 
         $("#average").text(average.toFixed(1) + "%");
         $("minMax").text(`${min}/${max}`);
-        $("#quiz4Grade").text(gradeToPass.tofixed(1));
+        $("#quiz4Grade").text(gradeToPass.toFixed(1));
     }
 });
