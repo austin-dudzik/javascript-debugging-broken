@@ -4,9 +4,9 @@ $(document).ready(function () {
     function calculate(event) {
         event.preventDefault();
 
-        var quiz1 = $("#quiz1").val();
-        var quiz2 = $("#quiz2").val();
-        var quiz3 = $("#quiz3").val();
+        var quiz1 = parseFloat($("#quiz1").val());
+        var quiz2 = parseFloat($("#quiz2").val());
+        var quiz3 = parseFloat($("#quiz3").val());
 
         var average = (quiz1 + quiz2 + quiz3) / 3;
 
